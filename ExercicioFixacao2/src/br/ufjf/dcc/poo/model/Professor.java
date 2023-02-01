@@ -1,10 +1,18 @@
 package br.ufjf.dcc.poo.model;
 
+import java.util.ArrayList;
+
 public class Professor extends Pessoa {
 	private String codigo;
 	private String formacao;
 	private float horaAula;
 	private int quantidadeAula;
+	private ArrayList<Disciplina> disciplina;
+	
+	
+	public float calcularPagamento() {
+		return 0;
+	}
 	
 	public String getCodigo() {
 		return codigo;
@@ -30,5 +38,14 @@ public class Professor extends Pessoa {
 	public void setQuantidadeAula(int quantidadeAula) {
 		this.quantidadeAula = quantidadeAula;
 	}
+
+	public ArrayList<Disciplina> getDisciplina() {
+		return disciplina;
+	}
+
+	public void setDisciplina(ArrayList<Disciplina> disciplina) {
+		this.disciplina = disciplina;
+	}
+	
 	
 }
