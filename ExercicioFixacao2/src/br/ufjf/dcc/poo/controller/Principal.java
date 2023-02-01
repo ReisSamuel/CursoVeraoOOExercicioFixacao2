@@ -27,8 +27,8 @@ public class Principal {
 		d3.setCargaHoraria(60);
 		
 		Disciplina d4= new Disciplina();
-		d3.setNome("Redes");
-		d3.setCargaHoraria(60);
+		d4.setNome("Redes");
+		d4.setCargaHoraria(60);
 		
 		ArrayList<Disciplina> disciplinasAluno = new ArrayList<Disciplina>();
 		disciplinasAluno.add(d1);
